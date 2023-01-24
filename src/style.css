@@ -1,0 +1,132 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body { /* mengatur bagian seluruh desain bodynya*/
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #212530; /* mengatur warna background warna */
+}
+
+/*Mengatur bagian navbar */
+    .wrapper {
+        width: 1200px; /* ini berguna untuk mengatur jarak antara sisi kiri dan kanan website*/
+        margin: auto; /*... bagian ini untuk membuat margin ada di tengah ...*/
+        position: relative; 
+    }
+
+    .logo a{ /* ini untuk mengatur tulisan pada logo "ARSYIAN" */
+        font-size: 45px;
+        font-weight: 750;
+        float: left; /*Mengatur tulisannya di kiri*/
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #FFFFFF; /*Ini warna tulisannya */
+        margin-top: 0px;
+        margin-left: 13px;
+    }
+
+    .logo img { /* Ini untuk mengatur ukuran dll dari gambar logo*/
+        /*Code dibawah untuk mengatur ukuran*/
+        width: 50px;
+        height: 50px;
+
+        float: left; /*Mengatur gambar logo di kiri*/
+        margin-top: 12px; /*mengatur jarak dari bagian atas website sejauh 13piksel*/
+        border-radius: 15px; /*untuk membuat pojokan gambar logo agak bulet*/
+    }
+
+    .menu {
+        float: right; /* Membuat menu navigasi ada di bagian kanan*/
+    }
+
+    nav {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        line-height: 80px;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0; /*menaruh navbar tetap berada di atas*/
+        background: #63666D;
+        z-index: 1; /*Ini untuk mengatur navbar tetap berada di atas saat di scroll atau navbar ada di atas body utama*/
+    }
+
+    nav ul{ /*mengatur list dari button navigation bar*/
+        list-style-type: none; /* menghilangkan simbol di depan list*/
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav ul li{ /*mengatur tulisan jadi menyamping bukan ke bawah*/
+        float: left;
+    }
+
+    nav ul li a{ /*Mengatur tulisan dari button navbar*/
+        color: #FFFFFF; /*Mengatur warna tulisan*/
+        font-weight: bold; /*Bolt tulisan buttonnya*/
+        text-align: center; /*mengatur tulisannya di tengaah yang lain*/
+        padding: 0px 10px 0px 10px; /*Mengatur padding atau jarak antar button navbar*/
+        text-decoration: none;
+    }
+
+    nav ul li a:hover { /*Memberikan underline di bawah button navbar*/
+        text-decoration: underline;
+    }
+
+.bagian0 {
+    background-color: #212530; /* mengatur warna background warna */
+}
+
+section { /*Mengatur bagian section setiap bagian*/
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.kolom { /* Mengatur class kolom memiliki margin 150 piksel dari atas dan 50 piksel dari bawah*/
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+.kolom .deskripsi { /*Mengatur huruf yang terdapat dalam class kolom dan class deskripsi*/
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+h2 { /* Mengatur seluruh font dan ukuran dari semua tulisan dengan ukuran h2*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-1 { /*memberikan border pada tombol link*/
+    background: #45415e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-1:hover { /*Memberikan hover atau warna ketika kursor di dekatkan pada tombol*/
+    background: #5b7d87;
+    text-decoration: none;
+}
+
+p { /*Mengatur seluruh bagian yang ditulis dalam tag <p> memiliki margin dan padding sebagai berikut*/
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+}
